@@ -21,6 +21,47 @@
   .items:hover {
     background-color: rgba(179, 15, 15, 0.1);
   }
+  .gallery-wrapper {
+    
+    box-sizing: none;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .gallery-scroll {
+    box-sizing: border-box;
+    height: 400px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  .gallery {
+    
+    display: flex;
+    box-sizing: border-box;
+    width: max-content;
+    height: 5px;
+    padding: 0px 8px;
+  }
+  
+  .item-galeria {
+    box-sizing: border-box;
+    height: 5%;
+    padding: 16px 8px;
+  }
+  
+  .item img {
+    display: block;
+    height: 40%;
+  }
+  .bloque-gallery {
+    border-color:  rgb(65, 169, 230);
+    
+    border-width: 1px 1px 1px 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+    height: 500px;
+    }
 h2{
     text-decoration: none;
 }
@@ -87,7 +128,7 @@ background: #256988;
 position: absolute;
 right: 0;
 width: 240px;
-height: 91%;
+height: 93%;
 min-height: 600px;
 color: #fff;
 }
